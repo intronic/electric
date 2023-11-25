@@ -35,7 +35,7 @@
                   :extra-deps  {org.clojure/core.async               {:mvn/version "1.5.648"} ; for interop helpers only
                                 datascript/datascript                {:mvn/version "1.3.14"}
                                 com.datomic/client-pro               {:mvn/version "1.0.76"}
-                                com.datomic/local                    {:mvn/version "1.0.267"} ; need ~/.datomic/local.edn file, see: https://docs.datomic.com/cloud/datomic-local.html
+                                com.datomic/local                    {:mvn/version "1.0.267"} ; https://docs.datomic.com/cloud/datomic-local.html
                                 ch.qos.logback/logback-classic       {:mvn/version "1.2.11"}
                                 io.github.cognitect-labs/test-runner {:git/url "https://github.com/cognitect-labs/test-runner.git"
                                                                       :sha     "cc75980b43011773162b485f46f939dc5fba91e4"}}
